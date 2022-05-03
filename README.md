@@ -118,6 +118,20 @@ project: https://shunsukesaito.github.io/PIFu/
 </details>
 
 <details>
+<summary>DIB-R: Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer [NeurIPS 2019]</summary>
+<div align="center"><img src="images/DIB-R.png"/></div>
+<div align="justify">
+<p>
+Many machine learning models operate on images, but ignore the fact that images are 2D projections formed by 3D geometry interacting with light, in a process called rendering. Enabling ML models to understand image formation might be key for generalization. However, due to an essential rasterization step involving discrete assignment operations, rendering pipelines are non-differentiable and thus largely inaccessible to gradient-based ML techniques. In this paper, we present DIB-R, a differentiable rendering framework which allows gradients to be analytically computed for all pixels in an image. Key to our approach is to view foreground rasterization as a weighted interpolation of local properties and background rasterization as an distance-based aggregation of global geometry. Our approach allows for accurate optimization over vertex positions, colors, normals, light directions and texture coordinates through a variety of lighting models. We showcase our approach in two ML applications: single-image 3D object prediction, and 3D textured object generation, both trained using exclusively using 2D supervision.   
+
+code: https://github.com/nv-tlabs/DIB-R-Single-Image-3D-Reconstruction  
+paper: https://arxiv.org/pdf/1908.01210.pdf   
+project: https://nv-tlabs.github.io/DIB-R/
+</p>
+</div>
+</details>
+
+<details>
 <summary>nvdiffrec: Extracting Triangular 3D Models, Materials, and Lighting From Images</summary>
 <div align="center"><img src="images/nvdiffrec.jpeg"/></div>
 <div align="justify">
