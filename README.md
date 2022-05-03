@@ -48,20 +48,6 @@ project: https://nv-tlabs.github.io/GANverse3D/
 </details>
 
 <details>
-<summary>PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization</summary>
-<div align="center"><img src="images/PIFuHD_Overview.png"/></div>
-<div align="justify">
-<p>
-Recent advances in image-based 3D human shape estimation have been driven by the significant improvement in representation power afforded by deep neural networks. Although current approaches have demonstrated the potential in real world settings, they still fail to produce reconstructions with the level of detail often present in the input images. We argue that this limitation stems primarily form two conflicting requirements; accurate predictions require large context, but precise predictions require high resolution. Due to memory limitations in current hardware, previous approaches tend to take low resolution images as input to cover large spatial context, and produce less precise (or low resolution) 3D estimates as a result. We address this limitation by formulating a multi-level architecture that is end-to-end trainable. A coarse level observes the whole image at lower resolution and focuses on holistic reasoning. This provides context to an fine level which estimates highly detailed geometry by observing higher-resolution images. We demonstrate that our approach significantly outperforms existing state-of-the-art techniques on single image human shape reconstruction by fully leveraging 1k-resolution input images.  
-
-code: https://github.com/facebookresearch/pifuhd  
-paper: https://arxiv.org/pdf/2004.00452.pdf   
-project: https://shunsukesaito.github.io/PIFuHD/
-</p>
-</div>
-</details>
-
-<details>
 <summary>ARCH++: Animation-Ready Clothed Human Reconstruction Revisited</summary>
 <div align="center"><img src="images/ARCH++.jpeg"/></div>
 <div align="justify">
@@ -71,6 +57,20 @@ We present ARCH++, an image-based method to reconstruct 3D avatars with arbitrar
 code: https://github.com/NVlabs/nvdiffrec  
 paper: https://arxiv.org/pdf/2108.07845.pdf   
 project: https://tonghehehe.com/archpp
+</p>
+</div>
+</details>
+
+<details>
+<summary>PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization</summary>
+<div align="center"><img src="images/PIFuHD_Overview.png"/></div>
+<div align="justify">
+<p>
+Recent advances in image-based 3D human shape estimation have been driven by the significant improvement in representation power afforded by deep neural networks. Although current approaches have demonstrated the potential in real world settings, they still fail to produce reconstructions with the level of detail often present in the input images. We argue that this limitation stems primarily form two conflicting requirements; accurate predictions require large context, but precise predictions require high resolution. Due to memory limitations in current hardware, previous approaches tend to take low resolution images as input to cover large spatial context, and produce less precise (or low resolution) 3D estimates as a result. We address this limitation by formulating a multi-level architecture that is end-to-end trainable. A coarse level observes the whole image at lower resolution and focuses on holistic reasoning. This provides context to an fine level which estimates highly detailed geometry by observing higher-resolution images. We demonstrate that our approach significantly outperforms existing state-of-the-art techniques on single image human shape reconstruction by fully leveraging 1k-resolution input images.  
+
+code: https://github.com/facebookresearch/pifuhd  
+paper: https://arxiv.org/pdf/2004.00452.pdf   
+project: https://shunsukesaito.github.io/PIFuHD/
 </p>
 </div>
 </details>
