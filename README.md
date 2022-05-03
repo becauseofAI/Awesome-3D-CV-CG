@@ -159,6 +159,21 @@ project: https://liuziwei7.github.io/projects/Im2Avatar
 </div>
 </details>
 
+<details>
+<summary>A Point Set Generation Network for 3D Object Reconstruction from a Single Image [CVPR 2017]</summary>
+<div align="center"><img src="images/PointSetGeneration.jpg"/></div>
+<div align="justify">
+<p>
+Generation of 3D data by deep neural network has been attracting increasing attention in the research community. The majority of extant works resort to regular representations such as volumetric grids or collection of images; however, these representations obscure the natural invariance of 3D shapes under geometric transformations, and also suffer from a number of other issues. In this paper we address the problem of 3D reconstruction from a single
+image, generating a straight-forward form of output – point cloud coordinates. Along with this problem arises a unique and interesting issue, that the groundtruth shape for an input image may be ambiguous. Driven by this unorthodox output form and the inherent ambiguity in groundtruth, we design architecture, loss function and learning paradigm that are novel and effective. Our final solution is a conditional shape sampler, capable of predicting multiple plausible 3D point clouds from an input image. In experiments not only can our system outperform state-ofthe-art methods on single image based 3d reconstruction benchmarks; but it also shows strong performance for 3d shape completion and promising ability in making multiple plausible predictions.   
+
+code: https://github.com/fanhqme/PointSetGeneration  
+paper: https://arxiv.org/pdf/1612.00603.pdf  
+project: 
+</p>
+</div>
+</details>
+
 ---
 
 ## Neural Radiance Fields (NeRF)
