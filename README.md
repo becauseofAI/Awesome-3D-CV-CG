@@ -148,3 +148,7 @@ project: https://nvlabs.github.io/nvdiffrec/
 ---
 
 ## Neural Radiance Fields (NeRF)
+
+---
+
+## Generative Adversarial Network (GAN)
