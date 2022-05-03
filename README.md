@@ -61,6 +61,20 @@ project: https://shunsukesaito.github.io/PIFuHD/
 </div>
 </details>
 
+<details>
+<summary>nvdiffrec: Extracting Triangular 3D Models, Materials, and Lighting From Images</summary>
+<div align="center"><img src="images/nvdiffrec.jpeg"/></div>
+<div align="justify">
+<p>
+We present an efficient method for joint optimization of topology, materials and lighting from multi-view image observations. Unlike recent multi-view reconstruction approaches, which typically produce entangled 3D representations encoded in neural networks, we output triangle meshes with spatially-varying materials and environment lighting that can be deployed in any traditional graphics engine unmodified. We leverage recent work in differentiable rendering, coordinate-based networks to compactly represent volumetric texturing, alongside differentiable marching tetrahedrons to enable gradient-based optimization directly on the surface mesh. Finally, we introduce a differentiable formulation of the split sum approximation of environment lighting to efficiently recover all-frequency lighting. Experiments show our extracted models used in advanced scene editing, material decomposition, and high quality view interpolation, all running at interactive rates in triangle-based renderers (rasterizers and path tracers).   
+
+code: https://github.com/NVlabs/nvdiffrec  
+paper: https://arxiv.org/pdf/2111.12503.pdf   
+project: https://nvlabs.github.io/nvdiffrec/
+</p>
+</div>
+</details>
+
 ---
 
 ## Neural Radiance Fields (NeRF)
