@@ -49,3 +49,7 @@ project: https://nv-tlabs.github.io/GANverse3D/
 </p>
 </div>
 </details>
+
+---
+
+## Neural Radiance Fields (NeRF)
