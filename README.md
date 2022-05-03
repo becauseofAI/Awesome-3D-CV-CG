@@ -90,6 +90,20 @@ project: https://shunsukesaito.github.io/PIFuHD/
 </details>
 
 <details>
+<summary>Geo-PIFu: Geometry and Pixel Aligned Implicit Functions for Single-view Human Reconstruction</summary>
+<div align="center"><img src="images/Geo-PIFu.png"/></div>
+<div align="justify">
+<p>
+We propose Geo-PIFu, a method to recover a 3D mesh from a monocular color image of a clothed person. Our method is based on a deep implicit function-based representation to learn latent voxel features using a structure-aware 3D U-Net, to constrain the model in two ways: first, to resolve feature ambiguities in query point encoding, second, to serve as a coarse human shape proxy to regularize the high-resolution mesh and encourage global shape regularity. We show that, by both encoding query points and constraining global shape using latent voxel features, the reconstruction we obtain for clothed human meshes exhibits less shape distortion and improved surface details compared to competing methods. We evaluate Geo-PIFu on a recent human mesh public dataset that is 10× larger than the private commercial dataset used in PIFu and previous derivative work. On average, we exceed the state of the art by 42.7% reduction in Chamfer and Point-to-Surface Distances, and 19.4% reduction in normal estimation errors.  
+
+code: https://github.com/simpleig/Geo-PIFu  
+paper: https://arxiv.org/pdf/1905.05172.pdf   
+project: 
+</p>
+</div>
+</details>
+
+<details>
 <summary>PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization</summary>
 <div align="center"><img src="images/PIFu.png"/></div>
 <div align="justify">
