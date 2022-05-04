@@ -118,6 +118,20 @@ project: https://shunsukesaito.github.io/PIFu/
 </details>
 
 <details>
+<summary>SDF-SRN: Learning Signed Distance 3D Object Reconstruction from Static Images [NeurIPS 2020]</summary>
+<div align="center"><img src="images/SDF-SRN.png"/></div>
+<div align="justify">
+<p>
+Dense 3D object reconstruction from a single image has recently witnessed remarkable advances, but supervising neural networks with ground-truth 3D shapes is impractical due to the laborious process of creating paired image-shape datasets. Recent efforts have turned to learning 3D reconstruction without 3D supervision from RGB images with annotated 2D silhouettes, dramatically reducing the cost and effort of annotation. These techniques, however, remain impractical as they still require multi-view annotations of the same object instance during training. As a result, most experimental efforts to date have been limited to synthetic datasets. In this paper, we address this issue and propose SDF-SRN, an approach that requires only a single view of objects at training time, offering greater utility for real-world scenarios. SDF-SRN learns implicit 3D shape representations to handle arbitrary shape topologies that may exist in the datasets. To this end, we derive a novel differentiable rendering formulation for learning signed distance functions (SDF) from 2D silhouettes. Our method outperforms the state of the art under challenging single-view supervision settings on both synthetic and real-world datasets.   
+
+code: https://github.com/chenhsuanlin/signed-distance-SRN  
+paper: https://arxiv.org/pdf/2010.10505.pdf  
+project: https://chenhsuanlin.bitbucket.io/signed-distance-SRN/  
+</p>
+</div>
+</details>
+
+<details>
 <summary>DIB-R: Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer [NeurIPS 2019]</summary>
 <div align="center"><img src="images/DIB-R.png"/></div>
 <div align="justify">
