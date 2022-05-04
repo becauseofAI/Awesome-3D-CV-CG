@@ -174,6 +174,20 @@ project:
 </div>
 </details>
 
+<details>
+<summary>3D-R2N2: 3D Recurrent Reconstruction Neural Network [ECCV 2016]</summary>
+<div align="center"><img src="images/3D-R2N2.png"/></div>
+<div align="justify">
+<p>
+Inspired by the recent success of methods that employ shape priors to achieve robust 3D reconstructions, we propose a novel recurrent neural network architecture that we call the 3D Recurrent Reconstruction Neural Network (3D-R2N2). The network learns a mapping from images of objects to their underlying 3D shapes from a large collection of synthetic data using 3D-Convolutional LSTM which allows attention mechanism to focus on visible parts in 3D. Our network takes in one or more images of an object instance from arbitrary viewpoints and outputs a reconstruction of the object in the form of a 3D occupancy grid. Unlike most of the previous works, our network does not require any image annotations or object class labels for training or testing. Our extensive experimental analysis shows that our reconstruction framework i) outperforms the state-of-theart methods for single view reconstruction, and ii) enables the 3D reconstruction of objects in situations when traditional SFM/SLAM methods fail (because of lack of texture and/or wide baseline).   
+
+code: https://github.com/chrischoy/3D-R2N2  
+paper: https://arxiv.org/pdf/1604.00449.pdf  
+project: https://cvgl.stanford.edu/3d-r2n2/
+</p>
+</div>
+</details>
+
 ---
 
 ## Neural Radiance Fields (NeRF)
