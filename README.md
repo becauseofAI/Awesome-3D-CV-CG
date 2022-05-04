@@ -219,6 +219,20 @@ project: https://hiroharu-kato.com/publication/neural_renderer/
 </details>
 
 <details>
+<summary>Pix3D: Dataset and Methods for Single-Image 3D Shape Modeling [CVPR 2018]</summary>
+<div align="center"><img src="images/Pix3D.jpg"/></div>
+<div align="justify">
+<p>
+We study 3D shape modeling from a single image and make contributions to it in three aspects. First, we present Pix3D, a large-scale benchmark of diverse image-shape pairs with pixel-level 2D-3D alignment. Pix3D has wide applications in shape-related tasks including reconstruction, retrieval, viewpoint estimation, etc. Building such a large-scale dataset, however, is highly challenging; existing datasets either contain only synthetic data, or lack precise alignment between 2D images and 3D shapes, or only have a small number of images. Second, we calibrate the evaluation criteria for 3D shape reconstruction through behavioral studies, and use them to objectively and systematically benchmark cuttingedge reconstruction algorithms on Pix3D. Third, we design a novel model that simultaneously performs 3D reconstruction and pose estimation; our multi-task learning approach achieves state-of-the-art performance on both tasks.   
+
+code: https://github.com/xingyuansun/pix3d  
+paper: https://arxiv.org/pdf/1804.04610.pdf   
+project: http://pix3d.csail.mit.edu/
+</p>
+</div>
+</details>
+
+<details>
 <summary>Im2Avatar: Colorful 3D Reconstruction from a Single Image [arXiv 2018]</summary>
 <div align="center"><img src="images/im2avatar.png"/></div>
 <div align="justify">
