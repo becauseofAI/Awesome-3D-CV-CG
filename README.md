@@ -261,6 +261,21 @@ project: http://pix3d.csail.mit.edu/
 </details>
 
 <details>
+<summary>Learning Efficient Point Cloud Generation for Dense 3D Object Reconstruction [AAAI 2018]</summary>
+<div align="center"><img src="images/3D-point-cloud-generation.jpg"/></div>
+<div align="justify">
+<p>
+Conventional methods of 3D object generative modeling learn volumetric predictions using deep networks with 3D convolutional operations, which are direct analogies to classical 2D ones. However, these methods are computationally wasteful in attempt to predict 3D shapes, where information is rich only on the surfaces. In this paper, we propose a novel 3D generative modeling framework to efficiently generate object shapes in the form of dense point clouds. We use 2D convolutional operations to predict the 3D structure from multiple viewpoints and jointly apply geometric reasoning with 2D projection optimization. We introduce the pseudo-renderer, a differentiable module to approximate the true rendering operation, to synthesize novel depth maps for optimization. Experimental results for single-image 3D object reconstruction tasks show that we outperforms state-of-the-art methods in terms of shape similarity and prediction density.   
+
+code: https://github.com/chenhsuanlin/3D-point-cloud-generation  
+code: https://github.com/lkhphuc/pytorch-3d-point-cloud-generation  
+paper: https://arxiv.org/pdf/1706.07036.pdf   
+project: https://chenhsuanlin.bitbucket.io/3D-point-cloud-generation/  
+</p>
+</div>
+</details>
+
+<details>
 <summary>Im2Avatar: Colorful 3D Reconstruction from a Single Image [arXiv 2018]</summary>
 <div align="center"><img src="images/im2avatar.png"/></div>
 <div align="justify">
