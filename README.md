@@ -146,6 +146,20 @@ project:
 </details>
 
 <details>
+<summary>Multi-Garment Net: Learning to Dress 3D People from Images [ICCV 2019]</summary>
+<div align="center"><img src="images/MultiGarmentNetwork.jpg"/></div>
+<div align="justify">
+<p>
+We present Multi-Garment Network (MGN), a method to predict body shape and clothing, layered on top of the SMPL model from a few frames (1-8) of a video. Several experiments demonstrate that this representation allows higher level of control when compared to single mesh or voxel representations of shape. Our model allows to predict garment geometry, relate it to the body shape, and transfer it to new body shapes and poses. To train MGN, we leverage a digital wardrobe containing 712 digital garments in correspondence, obtained with a novel method to register a set of clothing templates to a dataset of real 3D scans of people in different clothing and poses. Garments from the digital wardrobe, or predicted by MGN, can be used to dress any body shape in arbitrary poses.   
+
+code: https://github.com/bharat-b7/MultiGarmentNetwork  
+paper: https://arxiv.org/pdf/1908.06903.pdf  
+project: https://virtualhumans.mpi-inf.mpg.de/mgn/  
+</p>
+</div>
+</details>
+
+<details>
 <summary>Pix2Vox: Context-aware 3D Reconstruction from Single and Multi-view Images [ICCV 2019]</summary>
 <div align="center"><img src="images/Pix2Vox.jpeg"/></div>
 <div align="justify">
