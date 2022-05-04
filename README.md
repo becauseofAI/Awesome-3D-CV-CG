@@ -34,6 +34,20 @@ project: https://phorhum.github.io/
 </details>
 
 <details>
+<summary>Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans [CVPR 2021 (Best Paper Candidate)]</summary>
+<div align="center"><img src="images/NeuralBody.jpg"/></div>  
+<div align="justify">
+<p>
+This paper addresses the challenge of novel view synthesis for a human performer from a very sparse set of camera views. Some recent works have shown that learning implicit neural representations of 3D scenes achieves remarkable view synthesis quality given dense input views. However, the representation learning will be ill-posed if the views are highly sparse. To solve this ill-posed problem, our key idea is to integrate observations over video frames. To this end, we propose Neural Body, a new human body representation which assumes that the learned neural representations at different frames share the same set of latent codes anchored to a deformable mesh, so that the observations across frames can be naturally integrated. The deformable mesh also provides geometric guidance for the network to learn 3D representations more efficiently. To evaluate our approach, we create a multi-view dataset named ZJU-MoCap that captures performers with complex motions. Experiments on ZJU-MoCap show that our approach outperforms prior works by a large margin in terms of novel view synthesis quality. We also demonstrate the capability of our approach to reconstruct a moving person from a monocular video on the People-Snapshot dataset.  
+
+code: https://github.com/zju3dv/neuralbody  
+paper: https://arxiv.org/pdf/2012.15838.pdf  
+project: https://zju3dv.github.io/neuralbody/ 
+</p>
+</div>
+</details>
+
+<details>
 <summary>GANverse3D: Image GANs meet Differentiable Rendering for Inverse Graphics and Interpretable 3D Neural Rendering</summary>
 <div align="center"><img src="images/GANverse3D.png"/></div>  
 <div align="justify">
