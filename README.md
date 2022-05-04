@@ -132,6 +132,35 @@ project: https://chenhsuanlin.bitbucket.io/signed-distance-SRN/
 </details>
 
 <details>
+<summary>Pix2Vox++: Multi-scale Context-aware 3D Object Reconstruction from Single and Multiple Images [IJCV 2020]</summary>
+<div align="center"><img src="images/Pix2Vox++.jpg"/></div>
+<div align="justify">
+<p>
+Recovering the 3D shape of an object from single or multiple images with deep neural networks has been attracting increasing attention in the past few years. Mainstream works (e.g. 3D-R2N2) use recurrent neural networks (RNNs) to sequentially fuse feature maps of input images. However, RNN-based approaches are unable to produce consistent reconstruction results when given the same input images with different orders. Moreover, RNNs may forget important features from early input images due to long-term memory loss. To address these issues, we propose a novel framework for single-view and multi-view 3D object reconstruction, named Pix2Vox++. By using a well-designed encoderdecoder, it generates a coarse 3D volume from each input image. A multi-scale context-aware fusion module is then introduced to adaptively select high-quality reconstructions for different parts from all coarse 3D volumes to obtain a fused 3D volume. To further correct the wrongly recovered parts in the fused 3D volume, a refiner is adopted to generate the final output. Experimental results on the ShapeNet, Pix3D, and Things3D benchmarks show that Pix2Vox++ performs favorably against state-of-the-art methods in terms of both accuracy and efficiency.   
+
+code: https://github.com/hzxie/Pix2Vox  
+paper: https://arxiv.org/pdf/2006.12250.pdf  
+project:   
+</p>
+</div>
+</details>
+
+<details>
+<summary>Pix2Vox: Context-aware 3D Reconstruction from Single and Multi-view Images [ICCV 2019]</summary>
+<div align="center"><img src="images/Pix2Vox.jpeg"/></div>
+<div align="justify">
+<p>
+Recovering the 3D representation of an object from single-view or multi-view RGB images by deep neural networks has attracted increasing attention in the past few years. Several mainstream works (e.g., 3D-R2N2) use recurrent neural networks (RNNs) to fuse multiple feature maps extracted from input images sequentially. However, when given the same set of input images with different orders, RNN-based approaches are unable to produce consistent reconstruction results. Moreover, due to long-term memory loss, RNNs cannot fully exploit input images to refine reconstruction results. To solve these problems, we propose a novel framework for single-view and multi-view 3D reconstruction, named Pix2Vox. By using a well-designed encoder-decoder, it generates a coarse 3D volume from each input image. Then, a context-aware fusion module is introduced to adaptively select high-quality reconstructions for each part (e.g., table legs) from different coarse 3D volumes to obtain a fused 3D volume. Finally, a refiner further refines the fused 3D volume to generate the final output. Experimental results on the ShapeNet and Pix3D benchmarks indicate that the proposed Pix2Vox outperforms state-ofthe-arts by a large margin. Furthermore, the proposed method is 24 times faster than 3D-R2N2 in terms of backward inference time. The experiments on ShapeNet unseen
+3D categories have shown the superior generalization abilities of our method.   
+
+code: https://github.com/hzxie/Pix2Vox  
+paper: https://arxiv.org/pdf/1901.11153.pdf  
+project: https://infinitescript.com/project/pix2vox/  
+</p>
+</div>
+</details>
+
+<details>
 <summary>DIB-R: Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer [NeurIPS 2019]</summary>
 <div align="center"><img src="images/DIB-R.png"/></div>
 <div align="justify">
