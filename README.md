@@ -189,6 +189,22 @@ project: https://nvlabs.github.io/nvdiffrec/
 </details>
 
 <details>
+<summary>Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images [ECCV 2018]</summary>
+<div align="center"><img src="images/Pixel2Mesh.jpg"/></div>
+<div align="justify">
+<p>
+We propose an end-to-end deep learning architecture that produces a 3D shape in triangular mesh from a single color image. Limited by the nature of deep neural network, previous methods usually represent a 3D shape in volume or point cloud, and it is non-trivial to convert them to the more ready-to-use mesh model. Unlike the existing methods, our network represents 3D mesh in a graph-based convolutional neural network and produces correct geometry by progressively deforming an ellipsoid, leveraging perceptual features extracted from the input image. We adopt a coarse-to-fine strategy to make the whole deformation procedure stable, and define various of mesh related losses to capture properties of different levels to guarantee visually appealing and physically accurate 3D geometry. Extensive experiments show that our method not only qualitatively produces mesh model with better details, but also achieves higher 3D shape estimation accuracy compared to the state-of-the-art.   
+
+code: https://github.com/nywang16/Pixel2Mesh  
+code: https://github.com/noahcao/Pixel2Mesh  
+code: https://github.com/Tong-ZHAO/Pixel2Mesh-Pytorch  
+paper: https://openaccess.thecvf.com/content_ECCV_2018/papers/Nanyang_Wang_Pixel2Mesh_Generating_3D_ECCV_2018_paper.pdf   
+project: 
+</p>
+</div>
+</details>
+
+<details>
 <summary>Im2Avatar: Colorful 3D Reconstruction from a Single Image [arXiv 2018]</summary>
 <div align="center"><img src="images/im2avatar.png"/></div>
 <div align="justify">
