@@ -198,8 +198,22 @@ We propose an end-to-end deep learning architecture that produces a 3D shape in 
 code: https://github.com/nywang16/Pixel2Mesh  
 code: https://github.com/noahcao/Pixel2Mesh  
 code: https://github.com/Tong-ZHAO/Pixel2Mesh-Pytorch  
-paper: https://openaccess.thecvf.com/content_ECCV_2018/papers/Nanyang_Wang_Pixel2Mesh_Generating_3D_ECCV_2018_paper.pdf   
-project: 
+paper: https://arxiv.org/pdf/1804.01654.pdf   
+project: https://nywang16.github.io/p2m/index.html
+</p>
+</div>
+</details>
+
+<details>
+<summary>Neural 3D Mesh Renderer [CVPR 2018]</summary>
+<div align="center"><img src="images/Neural_3D_Mesh_Renderer.jpg"/></div>
+<div align="justify">
+<p>
+For modeling the 3D world behind 2D images, which 3D representation is most appropriate? A polygon mesh is a promising candidate for its compactness and geometric properties. However, it is not straightforward to model a polygon mesh from 2D images using neural networks because the conversion from a mesh to an image, or rendering, involves a discrete operation called rasterization, which prevents back-propagation. Therefore, in this work, we propose an approximate gradient for rasterization that enables the integration of rendering into neural networks. Using this renderer, we perform single-image 3D mesh reconstruction with silhouette image supervision and our system outperforms the existing voxel-based approach. Additionally, we perform gradient-based 3D mesh editing operations, such as 2D-to-3D style transfer and 3D DeepDream, with 2D supervision for the first time. These applications demonstrate the potential of the integration of a mesh renderer into neural networks and the effectiveness of our proposed renderer.   
+
+code: https://github.com/hiroharu-kato/neural_renderer  
+paper: https://arxiv.org/pdf/1711.07566.pdf   
+project: https://hiroharu-kato.com/publication/neural_renderer/
 </p>
 </div>
 </details>
