@@ -189,6 +189,20 @@ project: https://nv-tlabs.github.io/DIB-R/
 </details>
 
 <details>
+<summary>DenseBody: Directly Regressing Dense 3D Human Pose and Shape From a Single Color Image [arXiv 2019]</summary>
+<div align="center"><img src="images/DenseBody.jpg"/></div>
+<div align="justify">
+<p>
+Recovering 3D human body shape and pose from 2D images is a challenging task due to high complexity and flexibility of human body, and relatively less 3D labeled data. Previous methods addressing these issues typically rely on predicting intermediate results such as body part segmentation, 2D/3D joints, silhouette mask to decompose the problem into multiple sub-tasks in order to utilize more 2D labels. Most previous works incorporated parametric body shape model in their methods and predict parameters in low-dimensional space to represent human body. In this paper, we propose to directly regress the 3D human mesh from a single color image using Convolutional Neural Network(CNN). We use an efficient representation of 3D human shape and pose which can be predicted through an encoder-decoder neural network. The proposed method achieves state-of-the-art performance on several 3D human body datasets including Human3.6M, SURREAL and UP3D with even faster running speed.   
+
+code: https://github.com/Lotayou/densebody_pytorch  
+paper: https://arxiv.org/pdf/1903.10153.pdf   
+project: 
+</p>
+</div>
+</details>
+
+<details>
 <summary>nvdiffrec: Extracting Triangular 3D Models, Materials, and Lighting From Images</summary>
 <div align="center"><img src="images/nvdiffrec.jpeg"/></div>
 <div align="justify">
